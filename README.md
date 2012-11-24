@@ -1,7 +1,7 @@
 BDSKDExample
 ============
 
-![Best Decision Logo](https://raw.github.com/LeapCommerce/BDSDKExample/master/ipadBdLogo.png)
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/best_decision_logo.png)
 
 ## ￼Best Decision SDK Documentation ©LEAP Commerce, 2011-2012
 (Last updated 11.23.12)
@@ -39,6 +39,8 @@ Next, make sure you send us your Bundle ID – Make sure you have sent us your b
 
 Drag the entire Best Decision SDK zip folder into your projects on Xcode. This is straightforward, but make sure to select the option, “Copy items into destination group’s folder.” [screenshot below]
 
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/screenshot_1.png)
+
 *3) Add Frameworks:*
 
 You will need to add the following frameworks / dynamic libraries to integrate our SDK into your app:
@@ -64,15 +66,15 @@ You will need to add the following frameworks / dynamic libraries to integrate o
 
 Opening the settings for your target by clicking on the topmost blue bar of the Xcode sidebar:
 
-(screenshot)
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/screenshot_2.png)
 
 Opening the “Build Phases” tab, expanding the box labeled, “Link Binary With Libraries,” and clicking the plus button:
 
-(screenshot)￼￼
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/screenshot_3.png)
 
 Choosing CFNetwork.framework from the list and clicking “Add”:
 
-(screenshot)
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/screenshot_4.png)
 
 Now, repeat the last two steps to add the remaining frameworks and dynamic libraries. 
 
@@ -128,11 +130,11 @@ Here we have our demo app’s personal openURL scheme (“shouldIbuyit” and th
 
 URL Scheme:
 
-(screenshot)
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/screenshot_5.png)
 ￼￼
 Bundle ID:
 
-(screenshot)
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/screenshot_6.png)
 
 
 *￼8) Ensuring 3rd party SDK compatibility*
@@ -190,7 +192,7 @@ LCBDSDK *bdSDK = [[LCBDSDK alloc] init];
 
 Here is a very simple example of an implementation in a list app. The Table View Controller has a list of items hardcoded in, and clicking on any of these items will launch the SDK.
 
-(screenshot)
+![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/screenshot_7.png)
 
 ￼￼￼
 ##**Leap Commerce/Best Decision SDK License**##
