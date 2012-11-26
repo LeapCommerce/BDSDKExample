@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "LCBD_Facebook.h"
 
+
 @interface LCFacebookManager : NSObject < LCBD_FBSessionDelegate, LCBD_FBDialogDelegate, LCBD_FBRequestDelegate >
 
 + (LCFacebookManager *)getFacebookManager;

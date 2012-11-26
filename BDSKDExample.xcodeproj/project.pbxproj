@@ -303,6 +303,7 @@
 		FA66D59A165D9ADC0001AE31 /* website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website.png; sourceTree = "<group>"; };
 		FA66D59B165D9ADC0001AE31 /* website@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website@2x.png"; sourceTree = "<group>"; };
 		FA66D618165DA8F20001AE31 /* libLCBDSDKMerged.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLCBDSDKMerged.a; sourceTree = "<group>"; };
+		FA77D9F31663EBD10094DAE6 /* LCBD_Facebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBD_Facebook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -414,6 +415,7 @@
 		569B48FB164D8E51003ED363 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				FA77D9F31663EBD10094DAE6 /* LCBD_Facebook.h */,
 				569B48FC164D8E51003ED363 /* LCBDSDK.h */,
 				569B48FD164D8E51003ED363 /* LCFacebookManager.h */,
 			);

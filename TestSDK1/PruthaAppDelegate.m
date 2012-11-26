@@ -12,6 +12,8 @@
 
 #import "PruthaDetailViewController.h"
 
+#import "LCFacebookManager.h"
+
 @implementation PruthaAppDelegate
 
 - (void)dealloc
@@ -76,5 +78,19 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+//Begin code
+
+
+#pragma mark - Facebook handleOpenURL for SSO:
+// Pre 4.2 support
+- (BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [[LCFacebookManager getFacebookManager] handleOpenURL:url];
+}
+// For 4.2+ support
+- (BOOL) application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [[LCFacebookManager getFacebookManager] handleOpenURL:url];
+}
+//end code
 
 @end
