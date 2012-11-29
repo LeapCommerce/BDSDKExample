@@ -4,7 +4,7 @@ BDSKDExample
 ![Best Decision Logo](https://raw.github.com/wiki/LeapCommerce/BDSDKExample/best_decision_logo.png)
 
 ## ￼Best Decision SDK Documentation ©LEAP Commerce, 2011-2012
-(Last updated 11.23.12)
+(Last updated 11.21.12)
 
 **Developer support resources-**
 
@@ -12,6 +12,7 @@ General integration questions – developers@leapcommerce.com
 
 Developer support forum – GetSatisfaction.com/BestDecision
 
+Follow us on Facebook – fb.com/BestDecisionSDK, Twitter – twitter.com/BestDecisionSDK
 
 **Abstract-**
 
