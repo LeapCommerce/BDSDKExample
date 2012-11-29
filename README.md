@@ -12,8 +12,6 @@ General integration questions – developers@leapcommerce.com
 
 Developer support forum – GetSatisfaction.com/BestDecision
 
-Urgent SDK issues – Weston (Lead SDK Developer), Weston@leapcommerce.com
-
 
 **Abstract-**
 
