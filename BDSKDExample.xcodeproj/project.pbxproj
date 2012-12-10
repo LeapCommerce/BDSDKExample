@@ -36,6 +36,7 @@
 		FA0FC27A1650F78C0057FD15 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0FC2791650F78C0057FD15 /* Twitter.framework */; };
 		FA0FC27C1650F7910057FD15 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0FC27B1650F7910057FD15 /* Accounts.framework */; };
 		FA0FC27E1650F7960057FD15 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0FC27D1650F7960057FD15 /* MessageUI.framework */; };
+		FA1793741675758400AF1CD7 /* libLCBDSDKMerged.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1793731675758400AF1CD7 /* libLCBDSDKMerged.a */; };
 		FA32ACAF1656E85900569A16 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = FA32AC971656E85900569A16 /* NSObject+SBJson.m */; };
 		FA32ACB01656E85900569A16 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA32AC9A1656E85900569A16 /* SBJsonParser.m */; };
 		FA32ACB11656E85900569A16 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FA32AC9C1656E85900569A16 /* SBJsonStreamParser.m */; };
@@ -142,7 +143,6 @@
 		FA66D5F7165D9ADC0001AE31 /* twitterHi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA66D599165D9ADC0001AE31 /* twitterHi@2x.png */; };
 		FA66D5F8165D9ADC0001AE31 /* website.png in Resources */ = {isa = PBXBuildFile; fileRef = FA66D59A165D9ADC0001AE31 /* website.png */; };
 		FA66D5F9165D9ADC0001AE31 /* website@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA66D59B165D9ADC0001AE31 /* website@2x.png */; };
-		FA66D619165DA8F20001AE31 /* libLCBDSDKMerged.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA66D618165DA8F20001AE31 /* libLCBDSDKMerged.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -183,6 +183,7 @@
 		FA0FC2791650F78C0057FD15 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		FA0FC27B1650F7910057FD15 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		FA0FC27D1650F7960057FD15 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FA1793731675758400AF1CD7 /* libLCBDSDKMerged.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLCBDSDKMerged.a; sourceTree = "<group>"; };
 		FA32AC961656E85900569A16 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
 		FA32AC971656E85900569A16 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
 		FA32AC981656E85900569A16 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -302,7 +303,6 @@
 		FA66D599165D9ADC0001AE31 /* twitterHi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitterHi@2x.png"; sourceTree = "<group>"; };
 		FA66D59A165D9ADC0001AE31 /* website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website.png; sourceTree = "<group>"; };
 		FA66D59B165D9ADC0001AE31 /* website@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website@2x.png"; sourceTree = "<group>"; };
-		FA66D618165DA8F20001AE31 /* libLCBDSDKMerged.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLCBDSDKMerged.a; sourceTree = "<group>"; };
 		FA77D9F31663EBD10094DAE6 /* LCBD_Facebook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCBD_Facebook.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -328,7 +328,7 @@
 				560295C4164B4BE90059155F /* UIKit.framework in Frameworks */,
 				560295C6164B4BE90059155F /* Foundation.framework in Frameworks */,
 				560295C8164B4BE90059155F /* CoreGraphics.framework in Frameworks */,
-				FA66D619165DA8F20001AE31 /* libLCBDSDKMerged.a in Frameworks */,
+				FA1793741675758400AF1CD7 /* libLCBDSDKMerged.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +371,7 @@
 		560295C2164B4BE90059155F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA66D618165DA8F20001AE31 /* libLCBDSDKMerged.a */,
+				FA1793731675758400AF1CD7 /* libLCBDSDKMerged.a */,
 				569B48FB164D8E51003ED363 /* include */,
 				560295C3164B4BE90059155F /* UIKit.framework */,
 				560295C5164B4BE90059155F /* Foundation.framework */,
