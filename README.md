@@ -125,7 +125,7 @@ Facebook URL Scheme – Include our custom FB URL scheme in your .plist
 
 We'll provide it when you sign up (see attached image). If you don't have any URL types set up, click Add in the bottom right of the editor on your .plist and select “Add URL Type.” Add the new URL scheme (comma separated) in the URL.
 
-Here we have our demo app’s personal openURL scheme (“shouldIbuyit” and the Facebook URL scheme “fb186397454781357foo”:
+Here we have our demo app’s personal openURL scheme (“shouldIbuyit” and the Facebook URL scheme “fb186397454781357bestdecision, fb271846776184159bestdecision”:
 
 URL Scheme:
 
