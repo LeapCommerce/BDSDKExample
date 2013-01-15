@@ -60,6 +60,7 @@ You will need to add the following frameworks / dynamic libraries to integrate o
 * MessageUI.framework
 * Copy "resources" folder (with png images; it's in the xcode project) to your project and make sure that the copied images are linked in "Build Phases" -> "Copy Bundle Resources"
 * Copy "dependencies" folder(it's in this xcode project) with JSON framework files to your project and make sure that the copied files appear in "Build Phases" -> "Compile Sources"
+* libLCBDSDKMerged.a
 
 ### Below is an installation example of a framework – CFNetwork.framework:
 
